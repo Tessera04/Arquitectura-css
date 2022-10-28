@@ -60,3 +60,21 @@
     background-repeat: no-repeat;
     border-radius: 100%;
 }
+
+@media (min-width: 0) {
+    .persona{
+        margin-bottom: 2rem;
+    }
+    .personas{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .persona{
+        margin-bottom: 0;
+    }
+    .personas{
+        flex-direction: row;
+    }
+}

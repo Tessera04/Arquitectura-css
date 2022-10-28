@@ -34,3 +34,25 @@
 .menu-link:hover{
     text-decoration: underline;
 }
+
+@media (min-width: 0) {
+    .cabecera{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .cabecera{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+
+    .logo{
+        display: block;
+    }
+}
